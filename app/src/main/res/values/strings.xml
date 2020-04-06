@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">ExerciseMenu</string>
+    <string name="labelapp">LOGIN USER</string>
+    <string name="Labelhitung">Menu Hitung Bangun Datar</string>
+    <string name="persegi">Persegi</string>
+    <string name="segitiga">Segitiga</string>
+    <string name="Persegipjg">Persegi Panjang</string>
+    <string name="lingkaran">Lingkaran</string>
+    <string name="trapesium">Trapesium</string>
+    <string name="un">Username</string>
+    <string name="ps">Password</string>
+    <string name="btn">Sign-In</string>
+    <string name="hsl">Ini Tampilan Hasil</string>
+    <string name="Masukkan_Password">Masukkan Password</string>
+    <string name="Masukkan_Username">Masukkan Username</string>
+</resources>

@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorAccent"
+    tools:context=".Activity2">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="50dp"
+            android:text="@string/Labelhitung"
+            android:textAlignment="center"
+            android:textColor="@color/judul"
+            android:textSize="30sp"
+            android:textStyle="bold" />
+        <TableLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="100dp" >
+
+            <TableRow
+                android:layout_width="214dp"
+                android:layout_height="173dp">
+
+                <Button
+                    android:id="@+id/btnpersegi"
+                    android:layout_width="150dp"
+                    android:layout_height="150dp"
+                    android:background="@drawable/persegi"
+                    android:text="@string/persegi"
+                    android:onClick="showpopup1">
+
+                </Button>
+                <Button
+                    android:id="@+id/btnlingkaran"
+                    android:layout_width="130dp"
+                    android:layout_height="130dp"
+                    android:background="@drawable/lingkaran"
+                    android:text="@string/lingkaran"
+                    android:onClick="showpopup2">
+
+                </Button>
+            </TableRow>
+
+            <TableRow
+                android:layout_width="214dp"
+                android:layout_height="173dp">
+
+                <Button
+                    android:id="@+id/btnsegipanjang"
+                    android:layout_width="150dp"
+                    android:layout_height="150dp"
+                    android:background="@drawable/persegipanjang"
+                    android:text="@string/Persegipjg"
+                    android:onClick="showpopup3">
+
+                </Button>
+                <Button
+                    android:id="@+id/btnsegitiga"
+                    android:layout_width="130dp"
+                    android:layout_height="130dp"
+                    android:background="@drawable/segitiga"
+                    android:text="@string/segitiga"
+                    android:onClick="showpopup4">
+
+                </Button>
+            </TableRow>
+
+            <Button
+                android:id="@+id/btntrapesium"
+                android:layout_width="130dp"
+                android:layout_height="130dp"
+                android:background="@drawable/trapesium"
+                android:text="@string/trapesium"
+                android:onClick="showpopup5">
+
+            </Button>
+
+        </TableLayout>
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
